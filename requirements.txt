@@ -1,0 +1,18 @@
+openai>=1.0.0
+elevenlabs>=0.2.24
+python-dotenv
+sounddevice
+soundfile
+numpy
+langchain
+langchain-openai
+fastapi
+uvicorn
+scipy
+# Missing speech recognition dependencies:
+speech-recognition>=3.10.0
+pyaudio>=0.2.11
+pocketsphinx>=0.1.15
+# Additional audio dependencies for better compatibility:
+portaudio19-dev  # Linux/Mac audio support
+whisper>=1.0.0   # Local speech recognition fallback

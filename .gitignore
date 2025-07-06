@@ -1,0 +1,16 @@
+@"
+# Python
+__pycache__/
+*.pyc
+
+# Configs
+.env
+
+# Audio
+recordings/
+*.wav
+*.mp3
+
+# Logs
+logs/
+"@ | Out-File .gitignore -Encoding utf8
