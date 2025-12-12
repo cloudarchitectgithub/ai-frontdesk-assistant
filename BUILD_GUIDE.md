@@ -1,6 +1,6 @@
 # 🏥 AI Front Desk Assistant - Complete Build Guide
 
-A comprehensive guide to building a voice-enabled AI assistant for healthcare front desk operations using Python, OpenAI Whisper, and ElevenLabs.
+A comprehensive guide to building a voice enabled AI assistant for healthcare front desk operations using Python, OpenAI Whisper, and ElevenLabs.
 
 ## 📋 Table of Contents
 
@@ -16,18 +16,18 @@ A comprehensive guide to building a voice-enabled AI assistant for healthcare fr
 ## 🎯 Overview
 
 This AI assistant handles:
-- **Voice-based appointment scheduling**
+- **Voice based appointment scheduling**
 - **Insurance verification**
 - **Clinic information queries**
 - **Natural conversation flow**
 - **Call recording and logging**
 
 ### Key Features
-- 🎤 Real-time speech-to-text using OpenAI Whisper
-- 🔊 High-quality text-to-speech with ElevenLabs (or macOS fallback)
+- 🎤 Real time speech to text using OpenAI Whisper
+- 🔊 High quality text to speech with ElevenLabs (or macOS fallback)
 - 🤖 Intelligent conversation management
 - 📅 Appointment slot management
-- 🏥 Healthcare-specific domain knowledge
+- 🏥 Healthcare specific domain knowledge
 - 📊 Call recording and analytics
 
 ## 🔧 Prerequisites
@@ -42,7 +42,7 @@ This AI assistant handles:
 - **ElevenLabs API Key** (for premium voice synthesis)
 
 ### Hardware Requirements
-- **MacBook Pro** (or compatible Mac with built-in microphone)
+- **MacBook Pro** (or compatible Mac with built in microphone)
 - **Headphones/Speakers** for audio output
 - **Stable internet connection**
 
@@ -64,8 +64,8 @@ This AI assistant handles:
 
 1. **Voice Handler** (`voice_handler_simple.py`)
    - Audio capture and playback
-   - Speech-to-text conversion
-   - Text-to-speech synthesis
+   - Speech to text conversion
+   - Text to speech synthesis
    - Call recording management
 
 2. **Conversation Handler** (`simple_enhanced_assistant.py`)
@@ -84,7 +84,7 @@ This AI assistant handles:
    - Audio parameters
    - API configurations
 
-## 🚀 Step-by-Step Build Process
+## 🚀 Step by Step Build Process
 
 ### Step 1: Environment Setup
 
@@ -232,7 +232,7 @@ The system supports two voice modes:
 # In config.py
 USE_ELEVENLABS = False
 ```
-- Uses macOS built-in speech synthesis
+- Uses macOS built in speech synthesis
 - No API costs
 - Good for development and testing
 
@@ -241,7 +241,7 @@ USE_ELEVENLABS = False
 # In config.py
 USE_ELEVENLABS = True
 ```
-- Uses ElevenLabs for high-quality voice
+- Uses ElevenLabs for high quality voice
 - Requires API credits
 - Professional voice quality
 
